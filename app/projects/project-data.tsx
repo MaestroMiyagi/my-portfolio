@@ -21,10 +21,10 @@ export const projects: Project[] = [
     url: "https://example.com/",
   },
   {
-    title: "Project Three",
-    year: 2021,
+    title: "Yali",
+    year: 2023,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+    url: "https://yali.vercel.app/",
   },
 ];

@@ -14,7 +14,7 @@ export default function Page() {
           </p>
         </div>
         <Image
-          src="/profile.png"
+          src="/profile.jpeg"
           alt="Iyari Maldonado"
           className="rounded-full bg-gray-100 sm:ml-6 mb-6 sm:mb-0 mx-auto sm:mx-0 grayscale hover:grayscale-0"
           width={160}

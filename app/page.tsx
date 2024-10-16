@@ -40,7 +40,7 @@ export default function Page() {
 
         <h2><a href="https://yali.vercel.app/">The YALI Project</a>: Where Passion Meets Purpose</h2>
         <p>
-          One of my proudest achievements is the YALI project—a full-stack animal adoption and rescue platform that I developed during my time at Kodemia. This project wasn't just about showcasing my technical skills; it was about leveraging technology to make a real difference. Using a stack that included React, Node.js, and MongoDB, I created a platform that connects animals in need with loving homes. The unanimous approval from the jury was the cherry on top!
+          One of my proudest achievements is the YALI project—a full-stack animal adoption and rescue platform that I developed during my time at Kodemia. This project wasn't just about showcasing my technical skills; it was about leveraging technology to make a real difference. Using a stack that included React, Node.js, and MongoDB, I created a platform that connects animals in need with loving homes. The <a href='https://www.youtube.com/live/5tFLXEuknNs?si=vGw66hWd2dMF4FAW&t=1270'>unanimous approval from the jury</a> was the cherry on top!
         </p>
 
         <h2>Always Learning, Always Growing</h2>
@@ -54,7 +54,7 @@ export default function Page() {
         </p>
 
         <p>
-          Want to chat about a project, swap ideas, or just geek out about the latest in tech? Drop me a line at mffchmono@gmail.com or connect with me on <a href="https://linkedin.com/in/iyarimal/" target="_blank" rel="noopener noreferrer">LinkedIn</a>. Let's create something extraordinary together!
+          Want to chat about a project, swap ideas, or just geek out about the latest in tech? Drop me a line at <b></b>mffchmono@gmail.com or connect with me on <a href="https://linkedin.com/in/iyarimal/" target="_blank" rel="noopener noreferrer">LinkedIn</a>. Let's create something extraordinary together!
         </p>
 
         <div className="mt-6">

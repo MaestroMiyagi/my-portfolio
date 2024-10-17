@@ -23,7 +23,7 @@ export const projects: Project[] = [
     year: 2024,
     description:
       "A comprehensive documentation site for a specialized text editor. This editor is used by a company to create exam reactives in various programming languages, showcasing my ability to create clear, user-friendly technical documentation.",
-    url: "https://my-starlight-hv5bndffn-maestromiyagis-projects.vercel.app/",
+    url: "https://my-starlight-exb.vercel.app/",
     technologies: ["HTML", "CSS", "TypeScript", "Astro", "MDX", "npm"]
   },
   {

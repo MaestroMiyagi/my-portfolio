@@ -1,13 +1,17 @@
-import "./global.css";
-import type { Metadata } from "next";
-import { GeistSans } from "geist/font/sans";
-import { GeistMono } from "geist/font/mono";
-import { Navbar } from "./components/nav";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import Footer from "./components/footer";
-import { ThemeProvider } from "./components/theme-switch";
-import { metaData } from "./config";
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
+import type { Metadata } from 'next'
+import { VT323 } from 'next/font/google'
+import Footer from './components/footer'
+import { Navbar } from './components/nav'
+import { ThemeProvider } from './components/theme-switch'
+import { metaData } from './config'
+import './global.css'
+
+const vt323 = VT323({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL(metaData.baseUrl),
@@ -22,8 +26,8 @@ export const metadata: Metadata = {
     description: metaData.description,
     url: metaData.baseUrl,
     siteName: metaData.name,
-    locale: "en_US",
-    type: "website",
+    locale: 'en_US',
+    type: 'website',
   },
   robots: {
     index: true,
@@ -31,29 +35,29 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
     },
   },
   twitter: {
     title: metaData.name,
-    card: "summary_large_image",
+    card: 'summary_large_image',
   },
   icons: {
-    icon: "/favicon.svg",
+    icon: '/favicon.svg',
   },
-};
+}
 
-const cx = (...classes) => classes.filter(Boolean).join(" ");
+const cx = (...classes) => classes.filter(Boolean).join(' ')
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={cx(GeistSans.variable, GeistMono.variable)}>
+    <html lang="en" className={`${vt323.className}`}>
       <head>
         <link
           rel="alternate"
@@ -91,5 +95,5 @@ export default function RootLayout({
         </ThemeProvider>
       </body>
     </html>
-  );
+  )
 }
